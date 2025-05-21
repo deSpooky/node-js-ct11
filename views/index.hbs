@@ -1,0 +1,10 @@
+<h1>Index Page :]</h1>
+{{ getTime }}
+<p>{{uppercase content}}</p>
+{{#if isEmailVisible}}
+<ul>
+    {{#each emails}}
+    <li>{{this}}</li>
+    {{/each}}
+</ul>
+{{/if}}
